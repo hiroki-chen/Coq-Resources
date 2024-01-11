@@ -27,17 +27,17 @@ Till now, you should be able to verify something non-trivial...
 
 ### Some Real-World Projects Verified by Coq
 
-* (ConCert)[https://github.com/AU-COBRA/ConCert]: Verified Smart Contract Implementation
-* (CIFC)[https://github.com/HarvardPL/CIFC]: Oakland'21 Enforcing information flow control for Java-like language
-* (YNOT)[https://github.com/hiroki-chen/Coq-RDB] and (this)[https://github.com/ynot-harvard/ynot]: Verifying a database
-* (Jasmin)[https://github.com/jasmin-lang/jasmin]: Writing secure cryptographic code
+* [ConCert](https://github.com/AU-COBRA/ConCert): Verified Smart Contract Implementation
+* [CIFC](https://github.com/HarvardPL/CIFC): Oakland'21 Enforcing information flow control for Java-like language
+* [YNOT](https://github.com/hiroki-chen/Coq-RDB) and [this](https://github.com/ynot-harvard/ynot): Verifying a database
+* [Jasmin](https://github.com/jasmin-lang/jasmin): Writing secure cryptographic code
 
 ## Esoteric Stuffs
 
 You probably won't like them...
 
-* (Homotopy Type Theory for Coq)[https://github.com/HoTT/Coq-HoTT]
-* (MetaCoq)[https://github.com/MetaCoq/metacoq]: You can even play with Coq's core calculus and AST!
-* (UniMath)[https://github.com/UniMath/UniMath]: This coq library aims to formalize a substantial body of mathematics using the univalent point of view.
-* (Category Theory)[https://github.com/jwiegley/category-theory]: Formalized category theory in Coq.
-* (MathClasses)[https://github.com/coq-community/math-classes]
+* [Homotopy Type Theory for Coq](https://github.com/HoTT/Coq-HoTT)
+* [MetaCoq](https://github.com/MetaCoq/metacoq): You can even play with Coq's core calculus and AST!
+* [UniMath](https://github.com/UniMath/UniMath): This coq library aims to formalize a substantial body of mathematics using the univalent point of view.
+* [Category Theory](https://github.com/jwiegley/category-theory): Formalized category theory in Coq.
+* [MathClasses](https://github.com/coq-community/math-classes)
