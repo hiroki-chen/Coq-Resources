@@ -24,6 +24,7 @@ Till now, you should be able to verify something non-trivial...
 * [Extraction from Coq to OCaml](https://coq.inria.fr/refman/addendum/extraction.html)
 * [Coq Tricks](https://github.com/tchajed/coq-tricks): All the things that Coq manual won't teach you.
 * [Dependent Types](http://adam.chlipala.net/papers/CpdtJFR/CpdtJFR.pdf): This manual teaches you how to write code in Coq for playing with dependent types like $\Pi_{n: \mathbb{N}} P(n)$
+* [Coq's "Standard Library"](https://gitlab.mpi-sws.org/iris/stdpp): This project contains an extended "Standard Library" for Coq called coq-std++.
 
 ### Some Real-World Projects Verified by Coq
 
@@ -41,3 +42,10 @@ You probably won't like them...
 * [UniMath](https://github.com/UniMath/UniMath): This coq library aims to formalize a substantial body of mathematics using the univalent point of view.
 * [Category Theory](https://github.com/jwiegley/category-theory): Formalized category theory in Coq.
 * [MathClasses](https://github.com/coq-community/math-classes)
+* [Iris](https://gitlab.mpi-sws.org/iris/iris): A general proof mode for carrying out *separation logic proofs* (proof for languages that allow programmers to play with memory stores; for those interested, please refer to JC Reynolds's paper at CMU) in Coq.
+
+## Some Awesome Coq Pupils
+
+* [Ralf Jung @ ETHz](https://research.ralfj.de/): He is also the core contributor of rust-lang.
+* [Tej Chajed](https://www.chajed.io/): Proofs, logics, and verification for systems.
+* [Inria](https://www.inria.fr/fr): People at this institute made Coq!
