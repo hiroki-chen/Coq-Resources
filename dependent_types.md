@@ -130,6 +130,13 @@ Lemma UIP: forall (x y: U) (p1 p2: x = y), p1 = p2.
 Lemma UIP_refl : forall (x:U) (p: x = x), p = eq_refl x.
 ```
 
+Simply put, the proof for identity is always `refl` on decidable domains (sets in the sense of HoTT). If domains are not decidable, then we can add K as an axiom if we are just doing MLTT, but be aware that it breaks the univalence axiom, which means if you add K into the HoTT system then this system becomes inconsistent.
+
+```coq
+(* In the view of HoTT *)
+Definition is_set (A : Type) := forall (x y : A) (p q : x = y), p = q.
+```
+
 ## Streicher's K Axiom and Extensional Type Theory
 
 Let us not talk about HoTT for now (although it explicitly gives us a more reasonable view for identities over identities). Now we focus on dependent types in MLTT. We often write identity types, or prositional equality as `x = y` or $\mathsf{Id}(x, y)$. This type is only constructable via `refl: A -> A -> Prop`. The proof to that type is that $x$ is (by "is" I mean they are identical syntactically, not "semantically") $y$.

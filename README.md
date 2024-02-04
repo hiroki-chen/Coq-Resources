@@ -43,7 +43,7 @@ You probably won't like them...
 * [Category Theory](https://github.com/jwiegley/category-theory): Formalized category theory in Coq.
 * [MathClasses](https://github.com/coq-community/math-classes)
 * [Iris](https://gitlab.mpi-sws.org/iris/iris): A general proof mode for carrying out *separation logic proofs* (proof for languages that allow programmers to play with memory stores; for those interested, please refer to JC Reynolds's paper at CMU) in Coq.
-* [More dependent types](./dependent_types.md)
+* [More dependent types and some HoTT](./dependent_types.md)
 
 ## Some Awesome Coq Pupils
 
